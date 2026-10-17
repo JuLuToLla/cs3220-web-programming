@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Students</title>
+    <!-- Bootswatch Cerulean theme -->
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-primary bg-gradient" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- This line is the part where the dolphins swim academy is -->
+            <a class="navbar-brand text-white" href="#">
+                <img src="dolphin128x128.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Dolphins Swim Academy
+            </a>
+
+            <!-- Hamburger button for small -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav bar items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Home nav link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Home</a>
+                    </li>
+                    <!-- Classes nav link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Classes</a>
+                    </li>
+                    <!-- Students nav link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Students.html">Students</a>
+                    </li>
+                    <!-- Coaches nav link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Coaches</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header breadcrumb -->
+    <nav class="m-2" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Students</li>
+        </ol>
+    </nav>
+
+    <!-- Select for the dropdown menu and Select button -->
+    <div class="d-inline-flex gap-2 p-2">
+        <select class="form-select text-secondary" aria-label="Select a session">
+            <option selected value="1">Session 1: June 17 - June 27</option>
+            <option value="2">Session 2: July 8 - July 18</option>
+            <option value="3">Session 3: July 22 - August 1</option>
+            <option value="4">Session 4: August 5 - August 15</option>
+        </select>
+
+        <!-- Select button -->
+        <button type="button" class="btn btn-primary">Select</button>
+    </div>
+
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Level</th>
+                <th scope="col">Time (1st Choice)</th>
+                <th scope="col">Time (2nd Choice)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Josh</td>
+                <th scope="row">7</th>
+                <td>Minnows</td>
+                <td>10am</td>
+                <td>9am</td>
+            </tr>
+            <tr>
+                <td>Eva</td>
+                <th scope="row">6</th>
+                <td>Minnows</td>
+                <td>10am</td>
+                <td>1pm</td>
+            </tr>
+            <tr>
+                <td>Lucy</td>
+                <th scope="row">4</th>
+                <td>Starfish</td>
+                <td>1pm</td>
+                <td>2pm</td>
+            </tr>
+            <tr>
+                <td>Matt</td>
+                <th scope="row">8</th>
+                <td>Dolphins</td>
+                <td>9am</td>
+                <td>2pm</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- footer -->
+    <footer class="bg-light text-center p-3 mt-2">
+        Copyright © Dolphins Swim Academy 2024 <br>
+        Dolphin icon is created by
+        <a href="https://www.flaticon.com" class="text-decoration-underline">Freepik</a>
+        from
+        <a href="https://www.flaticon.com/authors/freepik" class="text-decoration-underline">Flaticon</a>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

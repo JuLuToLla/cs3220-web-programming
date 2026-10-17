@@ -1,0 +1,92 @@
+body {
+    margin: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+}
+
+header img {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+nav {
+    width: 25%;
+    color: white;
+    background-color: blue;
+    font-size: 24px;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav a,
+nav a:visited,
+footer a,
+footer a:visited {
+    color: white;
+}
+
+nav a:hover,
+footer a:hover {
+    color: gold;
+}
+
+section {
+    width: 75%;
+    text-align: center;
+}
+
+section h2 {
+    background-color: aqua;
+    border: 5px solid gold;
+    font-size: 32px;
+    font-weight: normal;
+    padding: 20px;
+    margin: 0 0 25px 0;
+}
+
+section p,
+section h4 {
+    font-size: 22px;
+}
+
+section button {
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
